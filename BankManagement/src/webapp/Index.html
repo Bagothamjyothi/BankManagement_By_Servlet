@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bank Dashboard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1508057198894-247b23fe5ade') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      backdrop-filter: brightness(80%);
+    }
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    button {
+      padding: 15px 40px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      backdrop-filter: blur(10px);
+    }
+
+    button:hover {
+      background: rgba(255, 255, 255, 0.4);
+      transform: scale(1.05);
+    }
+
+    .create-btn {
+      background-color: #00b894;
+    }
+
+    .sign-btn {
+      background-color: #0984e3;
+    }
+
+    .create-btn:hover {
+      background-color: #00cec9;
+    }
+
+    .sign-btn:hover {
+      background-color: #74b9ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>WELCOME TO BANK</h1>
+  <div class="buttons">
+   <a href="AccountCreation.jsp"><button class="create-btn">Create Account</button></a>
+    <a href="Login.jsp"><button class="sign-btn">Already Have an Account (Sign In)</button></a>
+   
+  
+  </div>
+</body>
+</html>
