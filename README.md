@@ -68,6 +68,8 @@ BankManagementSystem/
 ├── pom.xml
 ├── README.md
 └── .gitignore
+----
+
 🧩 Core Components
 
 🧠 DTO Layer (Data Transfer Objects)
